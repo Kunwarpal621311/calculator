@@ -35,6 +35,6 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 
 ## Contact
 
-If you have any questions or suggestions regarding this calculator web page, feel free to reach out to the project maintainer at [example@example.com](mailto:atul621311@gmail.com).
+If you have any questions or suggestions regarding this calculator web page, feel free to reach out to the project maintainer at [atul621311@gmail.com](mailto:atul621311@gmail.com).
 
 Happy calculating!
