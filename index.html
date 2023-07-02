@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <!-- header -->
+    <div class="header">
+        
+        <h2>
+            <i class="fa-solid fa-calculator"></i>Calculator</h2>
+    </div>
+    <!-- outputdisplay -->
+    <div class="outputdisplay">
+        <p class="secondout" id="secondout"></p>
+      
+        <p  class="output" id="output" >0</p>
+        
+    </div>
+    <!-- mannbody -->
+        <div class="mainbody">
+            <div class="btnarr">
+            <button class="size" id="persentage" onclick="handelclick('cube')">
+                x<sup>3</sup>
+            </button>
+            <button class="size" id="ce"
+            onclick="handelclick('ce')">
+                CE
+            </button>
+            <button class="size" id="clear" onclick="handelclick('c')">
+                C
+            </button>
+            <button class="size" id="deletebtn" onclick="handelclick('del')">
+                <i class="fa-solid fa-delete-left"></i>
+            </button>
+            <button class="size" id="parpotion"
+            onclick="handelclick('fraction')">
+                1/x
+            </button>
+            <button class="size" id="sequre"
+            onclick="handelclick('sequre')">
+                x<sup>2</sup>
+            </button>
+            <button class="size" id="root" onclick="handelclick('root')">
+                
+                <sup>2</sup> <span>&#8730; x</span>
+            </button>
+            <button class="size" id="divide"  onclick="handelclick('/')">
+                <i class="fa-solid fa-divide"></i>
+            </button>
+            <button class="size num" id="seven" onclick="handelclick(7)">
+                7
+            </button>
+            <button class="size num" id="eight"
+            onclick="handelclick(8)">
+                8
+            </button>
+            <button class="size num"id="nine num"onclick="handelclick(9)">
+                9
+            </button>
+            <button class="size" id="multiplay" onclick="handelclick('*')"
+            >
+                x
+            </button>
+            <button class="size num" id="four"
+            onclick="handelclick(4)">
+                4
+            </button>
+            <button class="size num" id="five"
+            onclick="handelclick(5)">
+                5
+            </button>
+            <button class="size num" id="six"onclick="handelclick(6)">
+                6
+            </button>
+            <button class="size" is="minus"
+            onclick="handelclick('-')">
+                -
+            </button>
+            <button class="size num" id="one" onclick="handelclick(1)">
+                1
+            </button>
+            <button class="size num" id="two" onclick="handelclick(2)">
+                2
+            </button>
+            <button class="size num" id="three" onclick="handelclick(3)">
+                3
+            </button>
+            <button class="size" id="add"
+            onclick="handelclick('+')">
+                +
+            </button>
+            <button class="size" id="sing"
+            onclick="handelclick('factorial')">
+                !x
+            </button>
+            <button class="size num" id="zero" onclick="handelclick(0)">
+                0
+            </button>
+            <button class="size" id="dot"
+            onclick="handelclick('.')">
+                .
+            </button>
+            <button class="size" id="equal"onclick="handelclick('equal')">
+                =
+            </button>
+        </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
