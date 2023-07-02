@@ -127,3 +127,12 @@ input::-webkit-inner-spin-button {
     background-color: rgba(12, 95, 163, 0.788);
     color: black;
 }
+
+ @media screen and (max-width: 930px) {
+  
+    .main{
+
+        width: 50vh;
+        height: 80%;
+    }
+  }
